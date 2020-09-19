@@ -1,0 +1,37 @@
+{
+  "name": "git-get-contributors-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unai6/Git-get-contributors.git"
+  },
+  "author": "unai gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unai6/Git-get-contributors/issues"
+  },
+  "homepage": "https://github.com/unai6/Git-get-contributors#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "http": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.11",
+    "nodemailer-juice": "^1.0.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
