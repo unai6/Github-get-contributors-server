@@ -32,7 +32,7 @@ mongoose
 app.use(
     cors({
         credentials: true,
-        origin: ["https://get-contributors-github.web.app/", "http://localhost:3000"]
+        origin: ["https://get-contributors-github.web.app", "http://localhost:3000"]
     })
 );  
 
